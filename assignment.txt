@@ -3,13 +3,9 @@ Congratulations on successfully pulling our git repository!
 Tasks:
 
 0. Make a new branch and checkout to that branch
-1. Make a html file
-2. Create a div and put following details
-	- Name in h1 tag
-	- Times available in h2 tag
-	- How comfortable are you with html, css amd javascript on a scale of 
-	  (0-5) in an unordered(ul) list
-	- You can add additional styles or tags if you feel.
+1. Design your own portfolio page
+2.You can be as creative as HTML allows, use as many of the relevant elements learned for a fluid page.
+ Include your experiences, links to past projects, along with descriptions 
 3. Push your branch to our remote repository.
 
 Good luck!
