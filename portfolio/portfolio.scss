@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: hsl(0, 0%, 70%);
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(0, 0%, 30%);
+  color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20rem;
+  width: 100%;
+  line-height: 2rem;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  color: #000000;
+  margin: 0rem 17.5rem;
+
+  .card {
+    margin: 1rem;
+  }
+
+  img {
+    width: 3.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    color: red;
+  }
+}
