@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam F Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navigation</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#name">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#work-experience">Experience</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>        
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="text-white bg-secondary container-fluid">
+      <div>
+          <h1 class="text-center" id="name"><u>Samuel Franklin</u></h1>
+          <p class="fw-bold text-center">QA intern, music lover, student of life</p>
+          <img class="rounded mx-auto d-block" src="/img/me_but_in_christmas.png" alt="Samuel in a Christmas hat">
+      </div>
+      <br>
+      <div>
+          <h2 class="text-center" id="about">About me</h2>
+          <p class="text-center">Hi! I'm a Jamaican immigrant, now living in the U.S.</p>
+          <p class="text-center">I'm interested in computers, specifically in software development and web applications.
+              I think it's pretty cool that these two (and more) exists, so much so that I got a BSc degree in Computer Science.
+              In school, I mostly programmed in C++ / C, creating console applications. For web development, I got experience with HTML, CSS and vanilla JavaScript.
+              Post graduation, I've gotten exposure to Java, Node.js, Express.js and REST APIs. 
+          </p>
+          <p class="text-center">I'm currently interning as a QA tester to explore more areas of the industry to get a better idea of where I fit in.</p>
+      </div class="text-center">
+      <div>
+          <h2 class="text-center" id="work-experience">Work experience</h2>
+          <p>Intern</p>
+          <p>09/2020 - 12/2020</p>
+          <p>Save-A-Suit, Bethel, CT</p>
+          <p>Digitized records, set up a local network with laptops and desktops, 
+              worked with E-commerce Coordinate Managers to promote the organization 
+              through their retailers, and updated web pages on WordPress.</p>
+
+          <br>
+
+          <p>Tutor</p>
+          <p>01/2016 - 05/2016</p>
+          <p>KJK Tutoring, Queens, NY</p>
+          <p>Tutored Elementary students from grades 1 through 4 in Mathematics
+              and English while assisting after school teachers with planned coursework.
+              Helped students with general information retention and tips for
+              individual study goals.
+          </p>
+      </div>
+      <div id="projects">
+          <h2 class="text-center projects">Projects</h2>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;"">
+                <a href="https://github.com/Samaica/eli-bot" target="_blank"><img src="/img/discbot.png" class="card-img-top" alt="discord logo"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Eli bot</h5>
+                  <p class="card-text">A bot for the voice chat software, 
+                    Discord, coded in discord.js
+                    which primarily reacts to specific user's messages and replies when
+                    the call key is invoked, hosted on a Node.js instance.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;"">
+                <a href="https://github.com/Samaica/lexical-analyzer" target="_blank"><img src="/img/pcbrain.jpg" class="card-img-top" alt="CPU brain"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Lexical Analyzer</h5>
+                  <p class="card-text">Created a shell lexical analyzer in C to scan postfix
+                    expressions using a Backus-Naur-Form Grammar</p>
+                </div>
+              </div>
+            </div><div class="col">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;"">
+                <a href="https://github.com/Samaica/battery-powered-car" target="_blank"><img src="/img/TESLA-LOGO.jpg" class="card-img-top" alt="tesla logo"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Battery Powered Car</h5>
+                  <p class="card-text">A course project 
+                    which utilized recursion in C++ to figure out the maximum distance a battery-powered
+                    car can drive with X amount of batteries.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="contact">
+          <h2 class="text-center contact">Get in touch</h2>
+          <form action="">
+              <input type="text" name="fname" id="fname" placeholder="First name">
+              <input type="text" name="lname" id="lname" placeholder="Last name">
+              <input type="email" name="email" id="email" placeholder="Email address"> <br>
+              <textarea name="user-message" id="user-message" cols="75" rows="10" placeholder="What's up?"></textarea> <br>
+              <input type="submit" value="Send message">
+          </form>
+      </div>
+  </div>
+</body>
+</html>

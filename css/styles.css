@@ -1,0 +1,9 @@
+div form {
+    display: flex;
+    align-content: center;
+}
+
+ a.card-img-top:hover{
+    background-color: white;
+    color: black;
+}
