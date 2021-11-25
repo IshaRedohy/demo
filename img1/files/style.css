@@ -1,0 +1,277 @@
+#header {
+    color: black;
+    background-color: #FFFFFF;
+    border: 0;
+    width: 100%;
+    padding: 0px;
+    border-spacing: 0px;
+}
+.cont {
+    border: 0;
+    padding: 25px;
+    border-spacing: 0;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+    margin: auto;
+}
+.cont font {
+    font-size: 180%;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    text-decoration: none;
+}
+#photo {
+    width: 110px;
+    height: 110px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: 10px;
+}
+#container2 {
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+#text {
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: -50px;
+}
+#text2 {
+    z-index: 100;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: -80px;
+}
+.container3 font{
+    font-family: 'Courier New';
+    font-size: 30px;
+    color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding: 10px;
+}
+#tdd {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding: 10px;
+}
+#home {
+    border-style: ridge;
+    border-width: 1px;
+    width: 100%;
+    background-color: #D1CEC8;
+
+}
+#home2 {
+    width: 100%;
+    text-align: center;
+}
+#home2 font {
+    font-family: 'Courier New';
+    font-size: 22px;
+    color: white;
+}
+#about {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#about2 {
+    width: 80%;
+    position: relative;
+    margin: 50px 0 80px 130px;
+}
+#aboutMe {
+    height: 150%;
+    text-align: center;
+    column-span: 2;
+    padding: 50px;
+}
+#aboutMe font {
+    font-family: 'Trebuchet MS';
+    font-size: 46px;
+    color: #DF8320;
+    position: absolute;
+    margin: 0 0 0 220px;
+    top: -5px;
+
+}
+#education font{
+    font-family: 'Verdana';
+    text-align: left;
+    font-size: 17px;
+    color: white;
+}
+#description {
+    width: 60%;
+    text-align: right;
+}
+#description font {
+    font-family: 'Verdana';
+    color: white;
+    font-size: 17px;
+}
+#about2 hr {
+    color: black;
+}
+#projects {
+    border-style: ridge;
+    border-width: 1px;
+    width: 100%;
+    padding: 0px;
+    border-spacing: 0px;
+    background-color: #D1CEC8;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#projects2 {
+    border: 0%;
+    padding: 15px;
+    border-spacing: 0px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 50px 0 80px 130px;
+}
+#projects2 td {
+    height: 150%;
+    text-align: center;
+    column-span: 2;
+    padding: 30px;
+}
+#Pname {
+    font-family: 'Trebuchet MS';
+    font-size: 46px;
+    color: #DF8320;
+    position: absolute;
+    margin: 0 0 0 220px;
+    top: -5px;
+}
+.pr {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+}
+#memberships {
+    border: 0;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 2%;
+}
+
+#memberships2 {
+    border: 0;
+    padding: 15px;
+    width: 80%;
+    position: relative;
+    margin: 50px 0 80px 130px;
+}
+#Mname {
+    height: 180%;
+    text-align: center;
+}
+#Mname hr {
+    color: black;
+}
+#Mname font {
+    font-family: 'Trebuchet MS';
+    font-size: 46px;
+    color: #DF8320;
+}
+#Mems {
+    font-family: 'Verdana';
+    font-size: 24px;
+    color: white;
+}
+#Mems hr {
+    color: #B0AEAA;
+}
+#contact {
+    border-style: ridge;
+    border-width: 1px;
+    width: 100%;
+    background-color: #D1CEC8;
+    text-align: center;
+}
+#contact2 {
+    border: 0;
+    padding: 5px;
+    width: 90%;
+    position: relative;
+    margin: 50px 0 80px 130px;
+}
+#contact3 {
+    text-align: center;
+}
+#contact3 font {
+    font-family: 'Trebuchet MS';
+    font-size: 46px;
+    color: #DF8320;
+    position: relative;
+    top: 0;
+    margin: 50px 0 50px -110px;
+}
+#contact-info {
+    text-align: center;
+    vertical-align: top;
+}
+#contact-info table {
+    border: 0;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    margin: 50px 0 50px 270px;
+    position: relative;
+    
+}
+#contact-info td {
+    width: 30%;
+}
+.input-info {
+    font-family: 'Verdana';
+    font-size: 18px;
+    color: #ffffff;
+}
+.input-info input[type=text] {
+    width: 90%;
+    color: white;
+}
+.submit-button font{
+    font-family: 'Verdana';
+    font-size: 18px;
+    color: black;
+}
+#footer {
+    border: 1;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#footer-table {
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+#footer-table td {
+    width: 80%;
+    vertical-align: top;
+}
+#footer-table font {
+    font-family: 'Verdana';
+    color: black;
+    font-size: 20px;;
+}
