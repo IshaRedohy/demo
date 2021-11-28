@@ -1,0 +1,30 @@
+.topnav {
+    border: 2px solid black;
+    width: 200px;
+    background-color: white;
+}
+.Profile-photo{
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.h3{
+    font: Arial, sans-serif 
+}
+
+.writing{
+    font: 15px Helvetica, sans-serif
+}
+.intrestPic{
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.header{
+    font: 30px Hevetica, sans-serif
+}
+
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+}
